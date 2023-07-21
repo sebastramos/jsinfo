@@ -16,8 +16,8 @@ for(let salary in salaries) {
 	sum += +salaries[salary]
 }
 
-console.log(sum)
+console.log(sum)  // 390
 
 // Solution 2
-console.log(Object.values(salaries).reduce((a,b)=> a + b))
+console.log(Object.values(salaries).reduce((a,b)=> a + b)) // 390
 
